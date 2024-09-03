@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 module jump-server {
-  source                            = "git::https://github.com/epam/cloud-pipeline//deploy/infra/aws/terraform/cloud-native/jump-server?ref=<branch-tag-or-commit>"
+  source                            = "git::https://github.com/epam/cloud-pipeline//deploy/infra/aws/terraform/cloud-native/jump-server?ref=f_aws_native_infra"
   project_name                      = "epam-cora-terraform1"
   env                               = "epam-cora-terraform-env1"
   vpc_id                            = "vpc-05deec794c0d4e0c1"
