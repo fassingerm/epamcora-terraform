@@ -57,7 +57,7 @@ module "cluster-infra" {
   iam_role_permissions_boundary_arn = "arn:aws:iam::590788709872:policy/CP-Service-Policy"
   eks_system_node_group_subnet_ids = ["subnet-003d978a107ffa704"]
   cp_edge_elb_schema                = "internet-facing"
-  cp_edge_elb_subnet                = "subnet-003d978a107ffa704"
+  cp_edge_elb_subnet                = "subnet-04243c22075f1627f"
   cp_edge_elb_ip                    = "52.73.71.164"
   cp_api_srv_host                   = "epam.fascmari.people.aws.dev"
   cp_docker_host                    = "docker.epam.fascmari.people.aws.dev"
